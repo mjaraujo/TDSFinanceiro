@@ -12,7 +12,6 @@
       <property name="hibernate.show_sql" value="true"/>
       <!-- UTILIZA-SE ESSA PROPRIEDADE, CASO QUEIRA SUBSTITUIR AS PROPRIEDADES DE CONEXÃO PELO ARQUIVO META-INF/context.xml -->
       <property name="connection.datasource" value="java:/comp/env/jdbc/FinanceiroDB"/>
-      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
     </properties>
   </persistence-unit>
 </persistence>
